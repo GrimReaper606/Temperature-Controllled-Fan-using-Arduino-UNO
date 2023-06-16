@@ -1,2 +1,5 @@
 # Temperature-Controllled-Fan-using-Arduino-UNO
 Creating a Embedded system project with Arduino UNO, DHT11 Temperature Sensor and a 5V DC Fan to demonstrate how to turn on Fan with changes in Temperature. This mainly a small demonstration of what it can be used in Large Scale Factory to maintain a Stable Temperature.
+
+1. Introduction:
+The project is made using the microcontroller Arduino Uno, DHT11 sensor and 5V DC fan. Arduino Uno will be used to collect data from the Digital Temperature sensor and relay it to the website through serial communication. Codes are written in Arduino and JavaScript to integrate the hardware and software. The outcome will result a Fan that can be controlled from anywhere with data of the room being constantly updated on the website for a set threshold. The website infrastructure is created using Node-Red. A real-life use case could be at factory, where if the temperature of the room has exceeded a certain threshold value the fans will be automatically turned on until the room has been cooled down below the temperature threshold.
